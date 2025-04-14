@@ -24,7 +24,7 @@ const juices: Juice[] = [
   
   const JuiceList: React.FC<Props> = ({ onAddToCart }) => {
     return (
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {juices.map((juice) => (
           <div key={juice.id} className="bg-white p-4 rounded shadow">
             <div className="flex justify-center items-center  w-full rounded">
